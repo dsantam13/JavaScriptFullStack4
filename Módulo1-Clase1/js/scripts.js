@@ -1,0 +1,1 @@
+console.log("Hola Soy un Console Log del archivo scripts.js");
