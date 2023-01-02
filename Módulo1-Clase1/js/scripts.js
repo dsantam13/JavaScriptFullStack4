@@ -1,16 +1,16 @@
 console.log("Hola Soy un Console Log del archivo scripts.js");
 
-var x = 5; //x  es un valor numérico entero
+var a = 5; //x  es un valor numérico entero
 
-console.log("El valor de la variable x es:", x);
+console.log("El valor de la variable a es:", a);
 
-let y = 2;
+let b = 2;
 
 let c;
 
 console.log(c);
 
-c = x + y;
+c = a + b;
 
 console.log(c);
 
@@ -85,3 +85,62 @@ Hay dos métodos para dar salida a los datos: console.log() y alert(). Entre los
 */
 
 alert("El de valor de userName es: " + userName);
+
+alert("La suma de a + b es igual a: " + c);
+
+/*
+Hay prompt() y confirm() para obtener datos del usuario. También son métodos de la interfaz window. Devuelven la entrada del usuario como resultado de su ejecución, por lo que podemos escribir el resultado de su trabajo en una variable para su posterior uso.
+
+confirm() - Muestra una ventana modal con un mensaje y dos botones, Ok y Cancel. Si hace clic en Ok, el resultado será true, si hace clic en Cancel - Regresará false.
+*/
+
+const isAdult = confirm("Tienes más de 18 años");
+console.log(isAdult);
+alert(isAdult);
+
+
+const guestName = prompt("Escriba el nombre del huesped");
+console.log(guestName);
+alert(guestName);
+
+//Operadores matemáticos
+const x = 10;
+const y = 5;
+
+// Suma
+console.log(x + y); // 15
+
+// Resta
+console.log(x - y); // 5
+
+// Multiplicación
+console.log(x * y); // 50
+
+// División
+console.log(x / y); // 2
+
+// Residuo de la división
+console.log(x % y); // 0
+
+
+let value = 5;
+// Suma de sustituciones (también disponible para todos los demás operadores)
+//value = value + 10;
+value += 10;
+console.log(value);
+
+//Calcular el área de un cuadrado
+
+let lengthSquare = prompt("Cuál es la altura del cuadrado");
+
+
+//Number.parseInt()
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+
+let areaSquare = Number.parseInt(lengthSquare) * Number.parseInt(lengthSquare);
+
+alert("El área del cuadrado es: " + areaSquare);
+
+//Calcular el área de un triangulo 
+//Calcular el área de un Circulo
+//Calcular el área de un Hexagono
