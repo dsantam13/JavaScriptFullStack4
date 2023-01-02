@@ -141,6 +141,6 @@ let areaSquare = Number.parseInt(lengthSquare) * Number.parseInt(lengthSquare);
 
 alert("El área del cuadrado es: " + areaSquare);
 
-//Calcular el área de un triangulo 
+//Calcular el área de un triangulo
 //Calcular el área de un Circulo
 //Calcular el área de un Hexagono
